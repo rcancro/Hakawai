@@ -15,7 +15,7 @@
 
 #define HKW_FULL_RANGE(__x__) NSMakeRange(0, [__x__ length])
 
-#ifdef DEBUG
+#ifdef HKWDEBUG
 #define HKWLOG(msg, ...) NSLog(msg, ##__VA_ARGS__)
 #else
 #define HKWLOG(msg, ...)
